@@ -1,0 +1,106 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/local/eosio.cdt/bin/eosio-cc 
+Build flags: ;-O3;
+Id flags: 
+
+The output was:
+255
+/usr/local/eosio.cdt/bin/wasm-ld: error: cannot open /tmp/CMakeCCompilerId.c.o: No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/eosio.cdt/bin/eosio-cpp 
+Build flags: ;-O3;
+Id flags: 
+
+The output was:
+255
+/usr/local/eosio.cdt/bin/wasm-ld: error: duplicate symbol: main(int, char**)
+>>> defined in /tmp/CMakeCXXCompilerId.cpp.o
+>>> defined in /tmp/CMakeCXXCompilerId.cpp.o
+
+/usr/local/eosio.cdt/bin/wasm-ld: error: duplicate symbol: info_platform
+>>> defined in /tmp/CMakeCXXCompilerId.cpp.o
+>>> defined in /tmp/CMakeCXXCompilerId.cpp.o
+
+/usr/local/eosio.cdt/bin/wasm-ld: error: duplicate symbol: info_compiler
+>>> defined in /tmp/CMakeCXXCompilerId.cpp.o
+>>> defined in /tmp/CMakeCXXCompilerId.cpp.o
+
+/usr/local/eosio.cdt/bin/wasm-ld: error: duplicate symbol: info_language_dialect_default
+>>> defined in /tmp/CMakeCXXCompilerId.cpp.o
+>>> defined in /tmp/CMakeCXXCompilerId.cpp.o
+
+/usr/local/eosio.cdt/bin/wasm-ld: error: duplicate symbol: info_arch
+>>> defined in /tmp/CMakeCXXCompilerId.cpp.o
+>>> defined in /tmp/CMakeCXXCompilerId.cpp.o
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/sean/Documents/briko/sean/eosio.cdt/examples/hello/build/tests/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7b528/fast"
+make[3]: Entering directory '/home/sean/Documents/briko/sean/eosio.cdt/examples/hello/build/tests/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_7b528.dir/build.make CMakeFiles/cmTC_7b528.dir/build
+make[4]: Entering directory '/home/sean/Documents/briko/sean/eosio.cdt/examples/hello/build/tests/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7b528.dir/CMakeCCompilerABI.c.obj
+/usr/local/eosio.cdt/bin/eosio-cc     -o CMakeFiles/cmTC_7b528.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_7b528.wasm
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b528.dir/link.txt --verbose=1
+/usr/local/eosio.cdt/bin/eosio-ld  -v CMakeFiles/cmTC_7b528.dir/CMakeCCompilerABI.c.obj -o cmTC_7b528.wasm  
+eosio-ld: Unknown command line argument '-v'.  Try: '/usr/local/eosio.cdt/bin/eosio-ld -help'
+eosio-ld: Did you mean '-L'?
+CMakeFiles/cmTC_7b528.dir/build.make:97: recipe for target 'cmTC_7b528.wasm' failed
+make[4]: *** [cmTC_7b528.wasm] Error 1
+make[4]: Leaving directory '/home/sean/Documents/briko/sean/eosio.cdt/examples/hello/build/tests/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7b528/fast' failed
+make[3]: *** [cmTC_7b528/fast] Error 2
+make[3]: Leaving directory '/home/sean/Documents/briko/sean/eosio.cdt/examples/hello/build/tests/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /home/sean/Documents/briko/sean/eosio.cdt/examples/hello/build/tests/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c9171/fast"
+make[3]: Entering directory '/home/sean/Documents/briko/sean/eosio.cdt/examples/hello/build/tests/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c9171.dir/build.make CMakeFiles/cmTC_c9171.dir/build
+make[4]: Entering directory '/home/sean/Documents/briko/sean/eosio.cdt/examples/hello/build/tests/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c9171.dir/CMakeCXXCompilerABI.cpp.obj
+/usr/local/eosio.cdt/bin/eosio-cpp      -o CMakeFiles/cmTC_c9171.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_c9171.wasm
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9171.dir/link.txt --verbose=1
+/usr/local/eosio.cdt/bin/eosio-ld  -v CMakeFiles/cmTC_c9171.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_c9171.wasm  
+eosio-ld: Unknown command line argument '-v'.  Try: '/usr/local/eosio.cdt/bin/eosio-ld -help'
+eosio-ld: Did you mean '-L'?
+CMakeFiles/cmTC_c9171.dir/build.make:97: recipe for target 'cmTC_c9171.wasm' failed
+make[4]: *** [cmTC_c9171.wasm] Error 1
+make[4]: Leaving directory '/home/sean/Documents/briko/sean/eosio.cdt/examples/hello/build/tests/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_c9171/fast' failed
+make[3]: *** [cmTC_c9171/fast] Error 2
+make[3]: Leaving directory '/home/sean/Documents/briko/sean/eosio.cdt/examples/hello/build/tests/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX [-std=c++14] compiler features failed to compile with the following output:
+Change Dir: /home/sean/Documents/briko/sean/eosio.cdt/examples/hello/build/tests/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e4859/fast"
+make[3]: Entering directory '/home/sean/Documents/briko/sean/eosio.cdt/examples/hello/build/tests/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e4859.dir/build.make CMakeFiles/cmTC_e4859.dir/build
+make[4]: Entering directory '/home/sean/Documents/briko/sean/eosio.cdt/examples/hello/build/tests/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e4859.dir/feature_tests.cxx.obj
+/usr/local/eosio.cdt/bin/eosio-cpp     -std=c++14 -o CMakeFiles/cmTC_e4859.dir/feature_tests.cxx.obj -c /home/sean/Documents/briko/sean/eosio.cdt/examples/hello/build/tests/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e4859.wasm
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4859.dir/link.txt --verbose=1
+/usr/local/eosio.cdt/bin/eosio-ld   CMakeFiles/cmTC_e4859.dir/feature_tests.cxx.obj -o cmTC_e4859.wasm 
+/usr/local/eosio.cdt/bin/wasm-ld: error: fatal failure: contract with no actions and trying to create dispatcher
+CMakeFiles/cmTC_e4859.dir/build.make:97: recipe for target 'cmTC_e4859.wasm' failed
+make[4]: *** [cmTC_e4859.wasm] Error 255
+make[4]: Leaving directory '/home/sean/Documents/briko/sean/eosio.cdt/examples/hello/build/tests/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e4859/fast' failed
+make[3]: *** [cmTC_e4859/fast] Error 2
+make[3]: Leaving directory '/home/sean/Documents/briko/sean/eosio.cdt/examples/hello/build/tests/CMakeFiles/CMakeTmp'
+
+
+

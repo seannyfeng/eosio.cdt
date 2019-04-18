@@ -1,0 +1,3 @@
+/home/sean/Documents/briko/sean/eosio.cdt/examples/hello/build/hello/CMakeFiles/edit_cache.dir
+/home/sean/Documents/briko/sean/eosio.cdt/examples/hello/build/hello/CMakeFiles/hello.dir
+/home/sean/Documents/briko/sean/eosio.cdt/examples/hello/build/hello/CMakeFiles/rebuild_cache.dir

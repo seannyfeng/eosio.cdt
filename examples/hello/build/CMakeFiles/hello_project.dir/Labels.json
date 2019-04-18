@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/sean/Documents/briko/sean/eosio.cdt/examples/hello/build/CMakeFiles/hello_project"
+		},
+		{
+			"file" : "/home/sean/Documents/briko/sean/eosio.cdt/examples/hello/build/CMakeFiles/hello_project.rule"
+		},
+		{
+			"file" : "/home/sean/Documents/briko/sean/eosio.cdt/examples/hello/build/CMakeFiles/hello_project-complete.rule"
+		},
+		{
+			"file" : "/home/sean/Documents/briko/sean/eosio.cdt/examples/hello/build/hello_project-prefix/src/hello_project-stamp/hello_project-install.rule"
+		},
+		{
+			"file" : "/home/sean/Documents/briko/sean/eosio.cdt/examples/hello/build/hello_project-prefix/src/hello_project-stamp/hello_project-mkdir.rule"
+		},
+		{
+			"file" : "/home/sean/Documents/briko/sean/eosio.cdt/examples/hello/build/hello_project-prefix/src/hello_project-stamp/hello_project-download.rule"
+		},
+		{
+			"file" : "/home/sean/Documents/briko/sean/eosio.cdt/examples/hello/build/hello_project-prefix/src/hello_project-stamp/hello_project-update.rule"
+		},
+		{
+			"file" : "/home/sean/Documents/briko/sean/eosio.cdt/examples/hello/build/hello_project-prefix/src/hello_project-stamp/hello_project-patch.rule"
+		},
+		{
+			"file" : "/home/sean/Documents/briko/sean/eosio.cdt/examples/hello/build/hello_project-prefix/src/hello_project-stamp/hello_project-configure.rule"
+		},
+		{
+			"file" : "/home/sean/Documents/briko/sean/eosio.cdt/examples/hello/build/hello_project-prefix/src/hello_project-stamp/hello_project-build.rule"
+		},
+		{
+			"file" : "/home/sean/Documents/briko/sean/eosio.cdt/examples/hello/build/hello_project-prefix/src/hello_project-stamp/hello_project-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"hello_project"
+		],
+		"name" : "hello_project"
+	}
+}

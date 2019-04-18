@@ -33,7 +33,7 @@ EOSIO_TEST_BEGIN(hello_test)
 
    
    // "Name : hello" should be in the print buffer
-   CHECK_PRINT("Name : hello",
+   CHECK_PRINT("Name : hello\n",
          []() {
             apply("test"_n.value, "test"_n.value, "hi"_n.value);
             });

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sean/Documents/briko/sean/eosio.cdt/examples/hello/src/hello.cpp
+hello.hpp
+-
+
+/home/sean/Documents/briko/sean/eosio.cdt/examples/hello/tests/../include/hello.hpp
+eosio/eosio.hpp
+-
+
+/home/sean/Documents/briko/sean/eosio.cdt/examples/hello/tests/hello_test.cpp
+eosio/eosio.hpp
+-
+eosio/tester.hpp
+-
+hello.hpp
+-
+

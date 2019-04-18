@@ -1,0 +1,14 @@
+# Target labels
+ hello_tests_project
+# Source files and their labels
+/home/sean/Documents/briko/sean/eosio.cdt/examples/hello/build/CMakeFiles/hello_tests_project
+/home/sean/Documents/briko/sean/eosio.cdt/examples/hello/build/CMakeFiles/hello_tests_project.rule
+/home/sean/Documents/briko/sean/eosio.cdt/examples/hello/build/CMakeFiles/hello_tests_project-complete.rule
+/home/sean/Documents/briko/sean/eosio.cdt/examples/hello/build/hello_tests_project-prefix/src/hello_tests_project-stamp/hello_tests_project-install.rule
+/home/sean/Documents/briko/sean/eosio.cdt/examples/hello/build/hello_tests_project-prefix/src/hello_tests_project-stamp/hello_tests_project-mkdir.rule
+/home/sean/Documents/briko/sean/eosio.cdt/examples/hello/build/hello_tests_project-prefix/src/hello_tests_project-stamp/hello_tests_project-download.rule
+/home/sean/Documents/briko/sean/eosio.cdt/examples/hello/build/hello_tests_project-prefix/src/hello_tests_project-stamp/hello_tests_project-update.rule
+/home/sean/Documents/briko/sean/eosio.cdt/examples/hello/build/hello_tests_project-prefix/src/hello_tests_project-stamp/hello_tests_project-patch.rule
+/home/sean/Documents/briko/sean/eosio.cdt/examples/hello/build/hello_tests_project-prefix/src/hello_tests_project-stamp/hello_tests_project-configure.rule
+/home/sean/Documents/briko/sean/eosio.cdt/examples/hello/build/hello_tests_project-prefix/src/hello_tests_project-stamp/hello_tests_project-build.rule
+/home/sean/Documents/briko/sean/eosio.cdt/examples/hello/build/hello_tests_project-prefix/src/hello_tests_project-stamp/hello_tests_project-test.rule
