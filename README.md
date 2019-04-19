@@ -17,6 +17,12 @@ cmake .
 make
 
 ### vim
-:tabe xxx     open a tab in vim
-gt            switch between tabs
-:Vex          open treeListing within the tab
+:tabe xxx     open a tab in vim \
+gt            switch between tabs \
+:Vex          open treeListing within the tab \
+
+### tmux
+ctrl+b        master key \
+          c   create new window \
+          p   switch to next window \
+          &   kill current window \
