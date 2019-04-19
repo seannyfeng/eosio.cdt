@@ -16,3 +16,7 @@ cd examples/hello
 cmake . 
 make
 
+### vim
+:tabe xxx     open a tab in vim
+gt            switch between tabs
+:Vex          open treeListing within the tab
