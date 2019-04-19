@@ -25,4 +25,9 @@ gt            switch between tabs \
 ctrl+b        master key \
           c   create new window \
           p   switch to next window \
-          &   kill current window \
+          &   kill current window 
+### git
+pull remote branch            git checkout -b <local branch name> origin/<remote branch name>
+                              git checkout -t origin/<remote branch name>
+commit                        git commit -am "commit comment"
+push to branch                git push origin HEAD:sean-testing
