@@ -19,7 +19,7 @@ make
 ### vim
 :tabe xxx     open a tab in vim \
 gt            switch between tabs \
-:Vex          open treeListing within the tab \
+:Vex          open treeListing within the tab 
 
 ### tmux
 ctrl+b        master key \
@@ -27,7 +27,7 @@ ctrl+b        master key \
           p   switch to next window \
           &   kill current window 
 ### git
-pull remote branch            git checkout -b <local branch name> origin/<remote branch name>
-                              git checkout -t origin/<remote branch name>
-commit                        git commit -am "commit comment"
+pull remote branch            git checkout -b <local branch name> origin/<remote branch name>\
+                              git checkout -t origin/<remote branch name>\
+commit                        git commit -am "commit comment"\
 push to branch                git push origin HEAD:sean-testing
